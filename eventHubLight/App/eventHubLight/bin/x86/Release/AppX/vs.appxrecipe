@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-17T21:42:49.097</Modified>
+      <Modified>2018-04-17T22:11:22.610</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\bin\x86\Release\eventHubLight.exe">
       <PackagePath>entrypoint\eventHubLight.exe</PackagePath>
-      <Modified>2018-04-17T21:42:30.249</Modified>
+      <Modified>2018-04-17T22:11:07.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\osram\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -521,7 +521,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-04-17T21:37:45.139</Modified>
+      <Modified>2018-04-17T22:08:38.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -575,15 +575,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-04-17T21:36:47.959</Modified>
+      <Modified>2018-04-17T22:07:43.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-04-17T21:36:46.355</Modified>
+      <Modified>2018-04-17T22:07:41.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-04-17T21:36:44.043</Modified>
+      <Modified>2018-04-17T22:07:39.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -591,31 +591,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-04-17T21:36:47.954</Modified>
+      <Modified>2018-04-17T22:07:43.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-04-17T21:36:46.643</Modified>
+      <Modified>2018-04-17T22:07:41.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-04-17T21:36:47.648</Modified>
+      <Modified>2018-04-17T22:07:42.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-04-17T21:36:44.032</Modified>
+      <Modified>2018-04-17T22:07:39.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-04-17T21:36:47.645</Modified>
+      <Modified>2018-04-17T22:07:42.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-04-17T21:37:45.055</Modified>
+      <Modified>2018-04-17T22:08:38.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-04-17T21:37:45.061</Modified>
+      <Modified>2018-04-17T22:08:38.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -628,227 +628,227 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.445</Modified>
+      <Modified>2018-04-17T22:11:20.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.467</Modified>
+      <Modified>2018-04-17T22:11:20.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.489</Modified>
+      <Modified>2018-04-17T22:11:20.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.510</Modified>
+      <Modified>2018-04-17T22:11:20.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.535</Modified>
+      <Modified>2018-04-17T22:11:20.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.546</Modified>
+      <Modified>2018-04-17T22:11:20.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.567</Modified>
+      <Modified>2018-04-17T22:11:20.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.589</Modified>
+      <Modified>2018-04-17T22:11:20.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.605</Modified>
+      <Modified>2018-04-17T22:11:20.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.627</Modified>
+      <Modified>2018-04-17T22:11:20.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.645</Modified>
+      <Modified>2018-04-17T22:11:20.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.660</Modified>
+      <Modified>2018-04-17T22:11:20.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.691</Modified>
+      <Modified>2018-04-17T22:11:20.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.707</Modified>
+      <Modified>2018-04-17T22:11:20.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.727</Modified>
+      <Modified>2018-04-17T22:11:20.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.773</Modified>
+      <Modified>2018-04-17T22:11:20.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.796</Modified>
+      <Modified>2018-04-17T22:11:20.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.812</Modified>
+      <Modified>2018-04-17T22:11:20.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.831</Modified>
+      <Modified>2018-04-17T22:11:20.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.863</Modified>
+      <Modified>2018-04-17T22:11:20.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.886</Modified>
+      <Modified>2018-04-17T22:11:20.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.903</Modified>
+      <Modified>2018-04-17T22:11:20.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.927</Modified>
+      <Modified>2018-04-17T22:11:20.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.943</Modified>
+      <Modified>2018-04-17T22:11:20.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.958</Modified>
+      <Modified>2018-04-17T22:11:20.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:44.984</Modified>
+      <Modified>2018-04-17T22:11:20.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.003</Modified>
+      <Modified>2018-04-17T22:11:20.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.025</Modified>
+      <Modified>2018-04-17T22:11:20.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.047</Modified>
+      <Modified>2018-04-17T22:11:20.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.062</Modified>
+      <Modified>2018-04-17T22:11:20.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.078</Modified>
+      <Modified>2018-04-17T22:11:20.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.102</Modified>
+      <Modified>2018-04-17T22:11:20.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.121</Modified>
+      <Modified>2018-04-17T22:11:20.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.139</Modified>
+      <Modified>2018-04-17T22:11:20.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.164</Modified>
+      <Modified>2018-04-17T22:11:20.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.186</Modified>
+      <Modified>2018-04-17T22:11:21.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.203</Modified>
+      <Modified>2018-04-17T22:11:21.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.222</Modified>
+      <Modified>2018-04-17T22:11:21.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.244</Modified>
+      <Modified>2018-04-17T22:11:21.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.258</Modified>
+      <Modified>2018-04-17T22:11:21.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.645</Modified>
+      <Modified>2018-04-17T22:11:21.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.661</Modified>
+      <Modified>2018-04-17T22:11:21.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.678</Modified>
+      <Modified>2018-04-17T22:11:21.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-04-17T21:37:18.917</Modified>
+      <Modified>2018-04-17T22:08:13.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.701</Modified>
+      <Modified>2018-04-17T22:11:21.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.722</Modified>
+      <Modified>2018-04-17T22:11:21.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.783</Modified>
+      <Modified>2018-04-17T22:11:21.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.822</Modified>
+      <Modified>2018-04-17T22:11:21.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.872</Modified>
+      <Modified>2018-04-17T22:11:21.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.947</Modified>
+      <Modified>2018-04-17T22:11:21.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.966</Modified>
+      <Modified>2018-04-17T22:11:21.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
-      <Modified>2018-04-17T21:42:45.980</Modified>
+      <Modified>2018-04-17T22:11:21.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-04-17T21:42:46.000</Modified>
+      <Modified>2018-04-17T22:11:22.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-04-17T21:42:46.017</Modified>
+      <Modified>2018-04-17T22:11:22.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-04-17T21:42:46.079</Modified>
+      <Modified>2018-04-17T22:11:22.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\bin\x86\Release\Core\eventHubLight.exe">
       <PackagePath>eventHubLight.exe</PackagePath>
-      <Modified>2018-04-17T21:42:49.089</Modified>
+      <Modified>2018-04-17T22:11:22.606</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

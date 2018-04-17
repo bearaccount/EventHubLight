@@ -9,7 +9,8 @@ using System.Net.Security;
 using UnityEngine.UI;
 using Microsoft.Azure.EventHubs;
 using Microsoft.Azure.EventHubs.Amqp;
-#if !UNITY_WSA
+#if !UNITY_WSA || UNITY_EDITOR
+//#if !WINDOWS_UWP
 using System.Security.Cryptography.X509Certificates;
 #endif
 
@@ -21,7 +22,9 @@ public class EventHubsSender : BaseEventHubs
     [HideInInspector]
     public Text DebugText;
 
-#if !UNITY_WSA
+#if !UNITY_WSA || UNITY_EDITOR
+    //#if !WINDOWS_UWP
+
     private class CustomCertificatePolicy : ICertificatePolicy
     {
         public bool CheckValidationResult(ServicePoint sp,
@@ -35,9 +38,13 @@ public class EventHubsSender : BaseEventHubs
     // Use this for initialization
     public async void TestEventHubsSender()
     {
+        Debug.Log("In TestEventHubsSender");
+
         try
         {
-#if !UNITY_WSA
+#if !UNITY_WSA || UNITY_EDITOR
+            //#if !WINDOWS_UWP
+
             //Unity will complain that the following statement is deprecated
             //however, it's working :)
             ServicePointManager.CertificatePolicy = new CustomCertificatePolicy();
@@ -51,15 +58,19 @@ public class EventHubsSender : BaseEventHubs
                 EntityPath = EhEntityPath
             };
 
+            Debug.Log($"Endpoint> {connectionStringBuilder.Endpoint.ToString()}");
+            Debug.Log($"EntityPath> {connectionStringBuilder.EntityPath.ToString()}");
 
             eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
-            await SendMessagesToEventHub(10);
+            Debug.Log($"EventHubName: {eventHubClient.EventHubName.ToString()}");
+
+            await SendMessagesToEventHub(2);
 
         }
         catch (Exception ex)
         {
-
-            WriteLine(ex.Message);
+            Debug.Log($"ErrorNew: {ex} in EventHub!");
+            //WriteLine(ex.Message);
         }
         finally
         {
@@ -77,12 +88,15 @@ public class EventHubsSender : BaseEventHubs
             try
             {
                 var message = $"Custom message from Unity {i} at {DateTime.Now}";
-                WriteLine($"Sending message: {message}");
+                //WriteLine($"Sending message: {message}");
+                Debug.Log($"Sending message: {message}");
+
                 await eventHubClient.SendAsync(new EventData(Encoding.UTF8.GetBytes(message)));
             }
             catch (Exception exception)
             {
-                WriteLine($"{DateTime.Now} > Exception: {exception.Message}");
+                //WriteLine($"{DateTime.Now} > Exception: {exception.Message}");
+                Debug.Log($"{DateTime.Now} > Exception: {exception.Message}");
                 //something happened so exit the loop
                 break;
             }
@@ -90,6 +104,6 @@ public class EventHubsSender : BaseEventHubs
             await Task.Delay(10);
         }
 
-        WriteLine($"{numMessagesToSend} messages sent.");
+        //WriteLine($"{numMessagesToSend} messages sent.");
     }
 }
