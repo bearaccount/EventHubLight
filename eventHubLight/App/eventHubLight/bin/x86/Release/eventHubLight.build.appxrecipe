@@ -346,6 +346,21 @@
     <AppxPackagedFile Include="C:\Users\osram\.nuget\packages\system.xml.xmlserializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Unprocessed\Microsoft.Azure.Amqp.dll">
+      <PackagePath>Microsoft.Azure.Amqp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Unprocessed\Microsoft.Azure.EventHubs.dll">
+      <PackagePath>Microsoft.Azure.EventHubs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Unprocessed\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Unprocessed\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Unprocessed\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity_2017-4-0\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
     </AppxPackagedFile>
@@ -455,143 +470,143 @@
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TextRenderingModule.dll">
-      <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainPhysicsModule.dll">
-      <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainModule.dll">
-      <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TilemapModule.dll">
-      <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIElementsModule.dll">
-      <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SharedInternalsModule.dll">
-      <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ScreenCaptureModule.dll">
-      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteMaskModule.dll">
-      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Assembly-CSharp.dll">
+      <PackagePath>Assembly-CSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteShapeModule.dll">
-      <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainModule.dll">
+      <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VideoModule.dll">
-      <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TerrainPhysicsModule.dll">
+      <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VehiclesModule.dll">
-      <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TextRenderingModule.dll">
+      <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestWWWModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VRModule.dll">
-      <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WindModule.dll">
-      <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WebModule.dll">
-      <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityAnalyticsModule.dll">
-      <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UNETModule.dll">
-      <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIModule.dll">
-      <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityConnectModule.dll">
-      <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestTextureModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestAudioModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AudioModule.dll">
-      <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AssetBundleModule.dll">
-      <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ARModule.dll">
-      <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ClothModule.dll">
-      <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.DirectorModule.dll">
-      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CrashReportingModule.dll">
-      <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CoreModule.dll">
-      <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Assembly-CSharp.dll">
-      <PackagePath>Assembly-CSharp.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AccessibilityModule.dll">
-      <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AnimationModule.dll">
-      <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AIModule.dll">
-      <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticlesLegacyModule.dll">
-      <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.JSONSerializeModule.dll">
-      <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticleSystemModule.dll">
-      <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.PhysicsModule.dll">
-      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.TilemapModule.dll">
+      <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.PhysicsModule.dll">
+      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ScreenCaptureModule.dll">
+      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SharedInternalsModule.dll">
+      <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteMaskModule.dll">
+      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.SpriteShapeModule.dll">
+      <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestWWWModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VehiclesModule.dll">
+      <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VideoModule.dll">
+      <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.VRModule.dll">
+      <PackagePath>UnityEngine.VRModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WebModule.dll">
+      <PackagePath>UnityEngine.WebModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.WindModule.dll">
+      <PackagePath>UnityEngine.WindModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestTextureModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIElementsModule.dll">
+      <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UIModule.dll">
+      <PackagePath>UnityEngine.UIModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UNETModule.dll">
+      <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityAnalyticsModule.dll">
+      <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityConnectModule.dll">
+      <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestAudioModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.UnityWebRequestModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GridModule.dll">
-      <PackagePath>UnityEngine.GridModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AIModule.dll">
+      <PackagePath>UnityEngine.AIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GameCenterModule.dll">
-      <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AnimationModule.dll">
+      <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.dll">
-      <PackagePath>UnityEngine.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ARModule.dll">
+      <PackagePath>UnityEngine.ARModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.InputModule.dll">
-      <PackagePath>UnityEngine.InputModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AssetBundleModule.dll">
+      <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AudioModule.dll">
+      <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.AccessibilityModule.dll">
+      <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ClothModule.dll">
+      <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.InputModule.dll">
+      <PackagePath>UnityEngine.InputModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.JSONSerializeModule.dll">
+      <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticlesLegacyModule.dll">
+      <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ParticleSystemModule.dll">
+      <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CoreModule.dll">
+      <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.CrashReportingModule.dll">
+      <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.DirectorModule.dll">
+      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GameCenterModule.dll">
+      <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\UnityEngine.GridModule.dll">
+      <PackagePath>UnityEngine.GridModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
