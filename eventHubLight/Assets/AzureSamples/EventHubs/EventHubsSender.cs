@@ -22,6 +22,7 @@ public class EventHubsSender : BaseEventHubs
     [HideInInspector]
     public Text DebugText;
 
+
 #if !UNITY_WSA || UNITY_EDITOR
     //#if !WINDOWS_UWP
 
@@ -87,7 +88,15 @@ public class EventHubsSender : BaseEventHubs
         {
             try
             {
-                var message = $"DMX:{DataPacketStr.ToString()}:1:255:{DateTime.Now}";
+                string message;
+                if (LightState) // light on
+                {
+                    message = $"DMX:{DataPacketStr.ToString()}:1:255:{DateTime.Now}";
+                }
+                else // light off
+                {
+                    message = $"DMX:{DataPacketStr.ToString()}:1:0:{DateTime.Now}";
+                }
                 //WriteLine($"Sending message: {message}");
                 Debug.Log($"Sending message: {message}");
 

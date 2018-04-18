@@ -6,11 +6,12 @@ public class BaseEventHubs : MonoBehaviour
     public string EhConnectionString;
     public string EhEntityPath;
     public string DataPacketStr;
+    public bool LightState;
 
     //private Text _myText;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
 	{
 		//_myText = GameObject.Find("DebugText").GetComponent<Text>();
 	}
