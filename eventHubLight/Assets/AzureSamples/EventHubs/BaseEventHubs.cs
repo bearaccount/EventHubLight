@@ -5,6 +5,7 @@ public class BaseEventHubs : MonoBehaviour
 {
     public string EhConnectionString;
     public string EhEntityPath;
+    public string DataPacketStr;
 
     //private Text _myText;
 

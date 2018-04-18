@@ -87,7 +87,7 @@ public class EventHubsSender : BaseEventHubs
         {
             try
             {
-                var message = $"Custom message from Unity {i} at {DateTime.Now}";
+                var message = $"DMX:{DataPacketStr.ToString()}:1:255:{DateTime.Now}";
                 //WriteLine($"Sending message: {message}");
                 Debug.Log($"Sending message: {message}");
 

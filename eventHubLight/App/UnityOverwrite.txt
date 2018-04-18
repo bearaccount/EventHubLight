@@ -9,7 +9,7 @@ eventHubLight.sln: 1830456398C452DB636C4FC312654966
 eventHubLight\App.cs: E844140745E9B5BDCEB53DEC9A323F1E
 eventHubLight\eventHubLight.csproj: C1601B962BB8D6D63B773F3C4953AC84
 eventHubLight\eventHubLight.csproj.user: modified
-eventHubLight\Package.appxmanifest: 59290474FC20D95E65F7BFF035E4B940
+eventHubLight\Package.appxmanifest: modified
 eventHubLight\project.json: 1D02BC64BAC0D041019673A1C4C51737
 eventHubLight\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 eventHubLight\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
