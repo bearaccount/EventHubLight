@@ -1,1 +1,0 @@
-C:\docs\REPOS\ar_event_hub_light\EventHubLight\eventHubLight\App\eventHubLight\eventHubLight.csproj;x86
