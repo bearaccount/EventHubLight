@@ -118,22 +118,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f,
     type: 2}
   m_PrefabInternal: {fileID: 72265054}
---- !u!114 &43451813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 43451812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!114 &43451816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +171,11 @@ Prefab:
     - target: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
       propertyPath: m_Name
       value: LightTargetSphere06
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
@@ -250,6 +239,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1351549593}
     m_Modifications:
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4715436513146282, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.8
@@ -286,6 +280,41 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere04
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 375027974}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_material
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 267405fc7e40ee041a8619a62e9baac5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -310,22 +339,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &375027974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375027972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
+--- !u!23 &375027974 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 23359130654634338, guid: 5f9996ef1e2deb246ba1140a1875704f,
+    type: 2}
+  m_PrefabInternal: {fileID: 375027970}
 --- !u!1001 &456972299
 Prefab:
   m_ObjectHideFlags: 0
@@ -491,6 +509,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere10
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -542,6 +565,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere09
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 09
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -566,22 +594,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &553516687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 553516685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1001 &967221530
 Prefab:
   m_ObjectHideFlags: 0
@@ -625,6 +637,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere08
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 08
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -649,22 +666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &967221534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 967221532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1001 &1205086599
 Prefab:
   m_ObjectHideFlags: 0
@@ -708,6 +709,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere07
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 07
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -732,43 +738,181 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1205086603
+--- !u!1 &1239007480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1239007481}
+  - component: {fileID: 1239007485}
+  - component: {fileID: 1239007484}
+  - component: {fileID: 1239007483}
+  - component: {fileID: 1239007486}
+  - component: {fileID: 1239007482}
+  m_Layer: 0
+  m_Name: LightsColored
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239007481
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239007480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.7, z: -0.5}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 1351549593}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1239007482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1205086601}
+  m_GameObject: {fileID: 1239007480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc18634d28d4b24d8c4ded890bd69db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FocusEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1239007483}
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: a31874fa06ddc844b8bb8f93464ae0df,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1239007486}
+        m_MethodName: EventHubsSenderOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  FocusLostEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1239007483}
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 5f18513953387404bbfd7fa43fe11f1c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1239007486}
+        m_MethodName: EventHubsSenderOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!23 &1239007483
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239007480}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a31874fa06ddc844b8bb8f93464ae0df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &1239007484
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239007480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1239007485
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239007480}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1239007486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239007480}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
+  EhConnectionString: Endpoint=sb://oseventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YwRx2oOuw4JIx8C3AKq0qRWRa8j6Urj8ax21u93vKxk=
+  EhEntityPath: HoloLensCmds
+  DataPacketStr: 13
+  LightState: 1
   DebugText: {fileID: 0}
 --- !u!1 &1289949467 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f,
     type: 2}
   m_PrefabInternal: {fileID: 524926556}
---- !u!114 &1289949468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1289949467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!114 &1289949471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,6 +961,7 @@ Transform:
   - {fileID: 1914773425}
   - {fileID: 375027971}
   - {fileID: 1456319081}
+  - {fileID: 1239007481}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -862,6 +1007,11 @@ Prefab:
     - target: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
       propertyPath: m_Name
       value: LightTargetSphere11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
@@ -914,6 +1064,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere05
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -938,22 +1093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1410536875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1410536873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1 &1428825615
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,8 +1104,8 @@ GameObject:
   - component: {fileID: 1428825618}
   - component: {fileID: 1428825617}
   - component: {fileID: 1428825616}
-  - component: {fileID: 1428825621}
   - component: {fileID: 1428825620}
+  - component: {fileID: 1428825621}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1064,7 +1203,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1428825615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c0dbb34a1a9ecb4db51af523b8ed5c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 519c32caf41282c498697844d9be313c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1456319080
@@ -1110,6 +1249,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere02
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 02
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -1118,38 +1262,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4715436513146282, guid: 5f9996ef1e2deb246ba1140a1875704f,
     type: 2}
   m_PrefabInternal: {fileID: 1456319080}
---- !u!1 &1456319082 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1456319080}
---- !u!114 &1456319083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1456319082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1456319084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1456319082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1 &1662779153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,22 +1371,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1061924248511130, guid: 5f9996ef1e2deb246ba1140a1875704f,
     type: 2}
   m_PrefabInternal: {fileID: 1396385713}
---- !u!114 &1754473032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1754473031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!114 &1754473035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1335,6 +1431,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere12
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -1359,22 +1460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1910823122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1910823120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1001 &1914773424
 Prefab:
   m_ObjectHideFlags: 0
@@ -1418,6 +1503,11 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere03
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -1442,22 +1532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1914773428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1914773426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
 --- !u!1001 &2087802367
 Prefab:
   m_ObjectHideFlags: 0
@@ -1465,6 +1539,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1351549593}
     m_Modifications:
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4715436513146282, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.2
@@ -1501,6 +1580,41 @@ Prefab:
       propertyPath: m_Name
       value: LightTargetSphere01
       objectReference: {fileID: 0}
+    - target: {fileID: 114892848750635250, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: DataPacketStr
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2087802371}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_material
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114639264071936550, guid: 5f9996ef1e2deb246ba1140a1875704f,
+        type: 2}
+      propertyPath: FocusLostEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 267405fc7e40ee041a8619a62e9baac5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9996ef1e2deb246ba1140a1875704f, type: 2}
   m_IsPrefabParent: 0
@@ -1525,22 +1639,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e283e09d990fc8409ac6e4030afa210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2087802371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2087802369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13af5f3bee8e84c4e93d50634bee4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EhConnectionString: 
-  EhEntityPath: 
-  DataPacketStr: 
-  LightState: 0
-  DebugText: {fileID: 0}
+--- !u!23 &2087802371 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 23359130654634338, guid: 5f9996ef1e2deb246ba1140a1875704f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2087802367}
 --- !u!1001 &2124343299
 Prefab:
   m_ObjectHideFlags: 0

@@ -80,7 +80,170 @@ public class EventHubsSender : BaseEventHubs
 
     }
 
+    // HACK - fix later
+    public async void EventHubsSenderOff()
+    {
+        Debug.Log("In TestEventHubsSenderOff");
 
+        // override for light to be always off
+        LightState = false;
+
+        try
+        {
+#if !UNITY_WSA || UNITY_EDITOR
+            //#if !WINDOWS_UWP
+
+            //Unity will complain that the following statement is deprecated
+            //however, it's working :)
+            ServicePointManager.CertificatePolicy = new CustomCertificatePolicy();
+
+            //this 'workaround' seems to work for the .NET Storage SDK, but not here. Leaving this for clarity
+            //ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+#endif
+
+            var connectionStringBuilder = new EventHubsConnectionStringBuilder(EhConnectionString)
+            {
+                EntityPath = EhEntityPath
+            };
+
+            Debug.Log($"Endpoint> {connectionStringBuilder.Endpoint.ToString()}");
+            Debug.Log($"EntityPath> {connectionStringBuilder.EntityPath.ToString()}");
+
+            eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
+            Debug.Log($"EventHubName: {eventHubClient.EventHubName.ToString()}");
+
+            await SendMessagesToEventHub(2);
+
+        }
+        catch (Exception ex)
+        {
+            Debug.Log($"ErrorNew: {ex} in EventHub!");
+            //WriteLine(ex.Message);
+        }
+        finally
+        {
+            await eventHubClient.CloseAsync();
+        }
+
+    }
+
+    // HACK - fix later
+    public async void EventHubsSenderOn()
+    {
+        Debug.Log("In TestEventHubsSenderOff");
+
+        // override for light to be always on
+        LightState = true;
+
+        try
+        {
+#if !UNITY_WSA || UNITY_EDITOR
+            //#if !WINDOWS_UWP
+
+            //Unity will complain that the following statement is deprecated
+            //however, it's working :)
+            ServicePointManager.CertificatePolicy = new CustomCertificatePolicy();
+
+            //this 'workaround' seems to work for the .NET Storage SDK, but not here. Leaving this for clarity
+            //ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+#endif
+
+            var connectionStringBuilder = new EventHubsConnectionStringBuilder(EhConnectionString)
+            {
+                EntityPath = EhEntityPath
+            };
+
+            Debug.Log($"Endpoint> {connectionStringBuilder.Endpoint.ToString()}");
+            Debug.Log($"EntityPath> {connectionStringBuilder.EntityPath.ToString()}");
+
+            eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
+            Debug.Log($"EventHubName: {eventHubClient.EventHubName.ToString()}");
+
+            await SendMessagesToEventHub(2);
+
+        }
+        catch (Exception ex)
+        {
+            Debug.Log($"ErrorNew: {ex} in EventHub!");
+            //WriteLine(ex.Message);
+        }
+        finally
+        {
+            await eventHubClient.CloseAsync();
+        }
+
+    }
+
+    // HACK
+    public async void EventHubsFlash()
+    {
+        //Debug.Log("In TestEventHubsSender");
+
+        try
+        {
+#if !UNITY_WSA || UNITY_EDITOR
+            //#if !WINDOWS_UWP
+
+            //Unity will complain that the following statement is deprecated
+            //however, it's working :)
+            ServicePointManager.CertificatePolicy = new CustomCertificatePolicy();
+
+            //this 'workaround' seems to work for the .NET Storage SDK, but not here. Leaving this for clarity
+            //ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+#endif
+
+            var connectionStringBuilder = new EventHubsConnectionStringBuilder(EhConnectionString)
+            {
+                EntityPath = EhEntityPath
+            };
+
+            Debug.Log($"Endpoint> {connectionStringBuilder.Endpoint.ToString()}");
+            Debug.Log($"EntityPath> {connectionStringBuilder.EntityPath.ToString()}");
+
+            eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
+            Debug.Log($"EventHubName: {eventHubClient.EventHubName.ToString()}");
+
+            int delay_ms = 200;
+            int messagesToSend = 2;
+
+            for (int i = 0; i < 5; ++i)
+            {
+                // turn on and off 01
+                LightState = true;
+                DataPacketStr = "01";
+                await SendMessagesToEventHub(messagesToSend);
+                await Task.Delay(delay_ms);
+
+                LightState = false;
+                DataPacketStr = "01";
+                await SendMessagesToEventHub(messagesToSend);
+                await Task.Delay(delay_ms);
+
+                // turn on and off 04
+                LightState = true;
+                DataPacketStr = "04";
+                await SendMessagesToEventHub(messagesToSend);
+                await Task.Delay(delay_ms);
+
+                LightState = false;
+                DataPacketStr = "04";
+                await SendMessagesToEventHub(messagesToSend);
+                await Task.Delay(delay_ms);
+            }
+
+
+        }
+        catch (Exception ex)
+        {
+            Debug.Log($"ErrorNew: {ex} in EventHub!");
+            //WriteLine(ex.Message);
+        }
+        finally
+        {
+            await eventHubClient.CloseAsync();
+        }
+
+    }
 
     private async Task SendMessagesToEventHub(int numMessagesToSend)
     {
