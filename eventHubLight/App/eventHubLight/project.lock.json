@@ -15779,12 +15779,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\docs\\REPOS\\ar_event_hub_light\\EventHubLight\\eventHubLight\\App\\eventHubLight\\eventHubLight.csproj",
+      "projectUniqueName": "C:\\docs\\REPOS\\ar_commissioning\\EventHubLight\\eventHubLight\\App\\eventHubLight\\eventHubLight.csproj",
       "projectName": "eventHubLight",
-      "projectPath": "C:\\docs\\REPOS\\ar_event_hub_light\\EventHubLight\\eventHubLight\\App\\eventHubLight\\eventHubLight.csproj",
-      "projectJsonPath": "C:\\docs\\REPOS\\ar_event_hub_light\\EventHubLight\\eventHubLight\\App\\eventHubLight\\project.json",
+      "projectPath": "C:\\docs\\REPOS\\ar_commissioning\\EventHubLight\\eventHubLight\\App\\eventHubLight\\eventHubLight.csproj",
+      "projectJsonPath": "C:\\docs\\REPOS\\ar_commissioning\\EventHubLight\\eventHubLight\\App\\eventHubLight\\project.json",
       "packagesPath": "C:\\Users\\osram\\.nuget\\packages\\",
-      "outputPath": "C:\\docs\\REPOS\\ar_event_hub_light\\EventHubLight\\eventHubLight\\App\\eventHubLight\\obj\\",
+      "outputPath": "C:\\docs\\REPOS\\ar_commissioning\\EventHubLight\\eventHubLight\\App\\eventHubLight\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
